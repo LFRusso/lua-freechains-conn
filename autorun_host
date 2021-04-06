@@ -1,0 +1,3 @@
+#! /bin/bash
+
+./freechains/freechains-host start $PWD/host/
