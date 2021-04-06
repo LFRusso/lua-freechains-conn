@@ -1,0 +1,6 @@
+#! /bin/bash
+
+shared_key=$(./freechains/freechains crypto shared "password");
+./freechains/freechains chains join '$chat' $shared_key;
+echo 'shared key: '$shared_key
+
